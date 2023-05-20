@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Utilidades */
+a {
+  text-decoration: none;
+}
+
+.link {
+  color: #025464;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.link:hover {
+  background-color: #f8f1f1;
+  color: #025464;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.titulo {
+  font-size: 60px;
+  color: #f8f1f1;
+}
+
+.autor {
+  color: #f8f1f1;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.nota {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  border: 1px solid #025464;
+  border-radius: 5px;
+}
+/* Colores */
+.cabeza {
+  background-color: #e57c23;
+}
+.pie {
+  background-color: #025464;
+}
+.cuerpo-nota {
+  color: #025464;
+  font-size: 17px;
+}
+span {
+  color: #e8aa42;
+  font-weight: bold;
+}
+span:hover {
+  color: #f8f1f1;
+  cursor: pointer;
+}
+/* Disposiciones */
+.ancho {
+  padding: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+  display: flex;
+}
+
+.menu-lateral {
+  width: 300px;
+  padding: 20px;
+  background-color: #e8aa42;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.notas {
+  padding: 20px;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
